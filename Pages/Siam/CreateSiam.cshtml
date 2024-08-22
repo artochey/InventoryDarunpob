@@ -1,5 +1,5 @@
 ﻿@page
-@model test1.Pages.Rangsit.CreateRangsitModel
+@model test1.Pages.Siam.CreateSiamModel
 @{
 }
 @{
@@ -8,7 +8,7 @@
 <br />
 <h2>New Item</h2>
 
-@if (Model.errorMessage.Length > 0)
+@if (Model.errorMessage.Length > 1)
 {
 	<div class="alert-warning alert-dismissible fade show" role="alert">
 		<strong>@Model.errorMessage</strong>
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 
-	@if (Model.successMessage.Length > 0)
+	@if (Model.successMessage.Length > 1)
 	{
 		<div class="row mb-3>">
 			<div class="col-sm-9">
@@ -60,7 +60,7 @@
 			<button type="submit" class="btn-primary">Submit</button>
 		</div>
 		<div class="col-sm-3 d-grid">
-				<a class="btn btn-outline=primary" href="/Rangsit/IndexRangsit" role="button">Cancle</a>
+			<a class="btn btn-outline=primary" href="/Siam/IndexSiam" role="button">Cancle</a>
 		</div>
 	</div>
 
