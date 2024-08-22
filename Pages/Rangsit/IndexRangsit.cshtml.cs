@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 
-namespace test1.Pages.Rangsit
+namespace InventoryDarunpob.Pages.Rangsit
 {
     public class IndexRangsitModel : PageModel
     {
