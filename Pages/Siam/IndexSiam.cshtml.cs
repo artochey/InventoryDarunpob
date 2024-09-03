@@ -13,7 +13,7 @@ namespace InventoryDarunpob.Pages.Siam
 		{
 			try
 			{
-				String connectionString = "Server=tcp:darunpob.database.windows.net,1433;Initial Catalog=Darunpob;Persist Security Info=False;User ID=darunpob;Password=Artart2547;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+				String connectionString = "Server=tcp:artart.database.windows.net,1433;Initial Catalog=artinventory;Persist Security Info=False;User ID=darunpob.naja;Password=Artart7807;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 				using (SqlConnection connection = new SqlConnection(connectionString))
 				{
 					connection.Open();
